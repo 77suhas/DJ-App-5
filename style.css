@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://image.freepik.com/free-photo/dj-mixer-table-background-night-club_118086-647.jpg");
+  background-size: cover;
+}
+.heading {
+  background-image: linear-gradient(to right bottom, #2cff00, #81f600, #aced00, #cce400, #e4da00, #efcb00, #f8bb00, #ffab00, #ff9000, #ff7200, #ff4e00, #ff0000);
+  color: blue;
+  font-size: 30px;
+  width: 90%;
+  letter-spacing: 10px;
+  margin: 0px;
+}
+#note {
+  color: black;
+  font-size: 20px;
+  letter-spacing: normal;
+  white-space: pre-line;
+}
+.disk_image {
+  width: 300px;
+  border-radius: 100%;
+}
+#speed_div {
+  float: left;
+}
+.h4 {
+  font-size: 25px;
+  margin: 10px;
+}
+#volume_div {
+  float: right;
+}
+#play, #stop {
+  font-size: 22px;
+} 
+canvas {
+  border: white 10px double;
+  margin-top: 70px;
+}
